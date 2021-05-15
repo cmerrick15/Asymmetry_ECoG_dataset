@@ -63,3 +63,5 @@ end
 
 hfb_avg_z = mean(hfb_data_z,3);
 
+hfb_lp = LPF(hfb_avg_z,100,2);
+
